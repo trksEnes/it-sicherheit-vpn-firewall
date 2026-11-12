@@ -1,0 +1,17 @@
+# NUR DOKUMENTATIONSBEISPIEL - NICHT VERBINDEN
+# Historische Direktiven; Serveradresse und persoenliche Pfade ersetzt.
+# Die hier genannten Zertifikate und Schluessel sind nicht enthalten.
+client
+dev tun
+proto tcp
+remote 198.51.100.10 11194
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+ca pki/ca.crt
+cert pki/issued/beispiel-client.crt
+key pki/private/beispiel-client.key
+remote-cert-tls server
+cipher AES-256-CBC
+verb 3
