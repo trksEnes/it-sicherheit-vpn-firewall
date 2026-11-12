@@ -1,0 +1,43 @@
+#!/bin/bash
+# NUR DOKUMENTATIONSBEISPIEL - NICHT UNGEPRUeFT AUSFUeHREN
+# Alle Zieladressen sind fiktive Beispieladressen.
+# Das Skript leert Firewallregeln und setzt INPUT/OUTPUT/FORWARD auf DROP.
+# Uebernommener Projektstand; nur Adressen und Kommentarformat angepasst.
+
+
+
+# Vorhandene Regeln und Ketten loeschen
+iptables -F
+iptables -t nat -F
+iptables -t mangle -F
+iptables -X
+iptables -t nat -X
+iptables -t mangle -X
+
+
+# OpenVPN-Verbindung zu 198.51.100.10 ueber TCP-Port 11194 erlauben
+iptables -A INPUT -p tcp -s 198.51.100.10 --sport 11194 -j ACCEPT
+iptables -A OUTPUT -p tcp -d 198.51.100.10 --dport 11194 -j ACCEPT
+
+
+# ICMP Echo Request mit 198.51.100.10
+iptables -A OUTPUT -p icmp --icmp-type echo-request -d 198.51.100.10 -j ACCEPT
+# ICMP Echo Replies von 198.51.100.10
+iptables -A INPUT -p icmp --icmp-type echo-reply -s 198.51.100.10 -j ACCEPT
+
+
+# SSH-Client-Verbindung mit dem Rechner 198.51.100.20 erlauben
+iptables -A OUTPUT -p tcp -d 198.51.100.20 --dport 22 -j ACCEPT
+iptables -A INPUT -p tcp -s 198.51.100.20 --sport 22 -j ACCEPT
+
+
+# Eingehende ICMP Echo Requests erlauben
+iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
+# Ausgehende ICMP Echo Replies erlauben
+iptables -A OUTPUT -p icmp --icmp-type echo-reply -j ACCEPT
+
+
+# Alle uebrigen Kommunikationsverbindungen blockieren
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
