@@ -1,0 +1,9 @@
+.*
+!.gitignore
+*.key
+*.asc
+*.tgz
+*.ovpn
+*.vc
+*.log
+*.bak
