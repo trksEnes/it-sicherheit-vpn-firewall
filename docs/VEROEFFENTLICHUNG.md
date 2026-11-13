@@ -2,7 +2,7 @@
 
 ## Grundlage und Umfang
 
-Diese redigierte Arbeitsprobe basiert auf meiner eigenen Abgabe vom 31. August 2026. Alle Netzadressen wurden dauerhaft geschwärzt oder durch fiktive Werte ersetzt. Die ursprünglichen Abgabedateien werden nicht veröffentlicht. Die technische Dokumentation kennzeichnet die redaktionellen Änderungen und nennt die verwendeten Fachquellen.
+Diese redigierte Arbeitsprobe basiert auf meiner eigenen Abgabe vom 31. August 2026. Alle Netzadressen wurden dauerhaft geschwärzt oder durch fiktive Werte ersetzt. Die ursprünglichen Abgabedateien werden nicht veröffentlicht. Die technische Dokumentation kennzeichnet die späteren redaktionellen Änderungen und behält die Quellenangaben einschließlich der KI-Unterstützung bei.
 
 ## Bereinigung
 
@@ -11,7 +11,7 @@ Diese redigierte Arbeitsprobe basiert auf meiner eigenen Abgabe vom 31. August 2
 - Mailadresse und Nachrichteninhalt im Mailbild dauerhaft geschwärzt.
 - Fremde Benutzernamen, eigene Kennungen einschließlich der Testmarker sowie Remote-Hostname in den Terminalbildern geschwärzt.
 - Originaler Netzplan durch eine ausdrücklich gekennzeichnete Neuzeichnung mit Beispieladressen ersetzt.
-- Reale URLs aus dem Literaturverzeichnis entfernt; Autor, Titel und Abrufdatum der Fachquellen beibehalten.
+- Reale URLs aus dem Literaturverzeichnis entfernt; Autor, Titel, Abrufdatum und Hinweis auf damalige KI-Nutzung beibehalten.
 - Individuelle Passwortwerte und Domains aus dem Passwortkapitel entfernt; Vorgehen und Bewertung zusammengefasst.
 - Zugangspasswort, Containerpasswort, Dateiname und Benutzerkennung entfernt beziehungsweise neutralisiert.
 - Auch Chiffrat, Startblock, Schlüsselwerte, Berechnungstabellen und Quersummenrechnung der Anmeldenachricht entfernt, damit das Passwort nicht daraus zurückgewonnen werden kann.
@@ -47,7 +47,7 @@ VPN-Versuch und Netzplanung sind getrennte Szenarien. Die Beispieladressen sind 
 - Ein beobachteter Paketverlust zwischen entfernten Rechnern wird nicht mehr der lokalen Firewall zugeschrieben.
 - Codeblöcke und die beiden separaten Beispieldateien stimmen überein. Die ursprünglichen aktiven Befehle bzw. Direktiven bleiben bis auf Adressen und persönliche Pfade erhalten.
 - Einschränkungen des ursprünglichen Firewall-Prototyps und die begrenzte Testabdeckung werden ausdrücklich genannt.
-- Öffentliche Quellen-URLs bleiben vorsorglich ebenfalls entfernt; die Mail unterscheidet nicht ausdrücklich zwischen öffentlichen Quellen und Hochschuladressen. Die Fachquellen bleiben benannt.
+- Öffentliche Quellen-URLs bleiben vorsorglich ebenfalls entfernt; die Mail unterscheidet nicht ausdrücklich zwischen öffentlichen Quellen und Hochschuladressen. Die Quellenbenennung einschließlich KI-Nutzung bleibt erhalten.
 
 Diese Veröffentlichung ersetzt die ursprüngliche, signierte Prüfungsabgabe nicht. Die hinzugefügten Erläuterungen und der redigierte Testfall gehören zur späteren Portfoliofassung.
 

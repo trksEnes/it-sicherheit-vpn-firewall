@@ -23,7 +23,7 @@ Diese Fassung wurde für die Veröffentlichung aus meiner abgegebenen Dokumentat
 
 **Alle verwendeten Netzadressen sind fiktive Beispielwerte oder dauerhaft geschwärzt.** Die Bereiche `192.0.2.0/24`, `198.51.100.0/24` und `203.0.113.0/24` sowie die frei gewählten internen Netze `10.10.1.0/24`, `10.10.2.0/24` und `10.10.3.0/24` dienen nur der Darstellung. Realer Mailkontakt, reale URLs, Zugangsdaten und rückrechenbare Authentifizierungswerte sind entfernt. Geschwärzte Screenshots enthalten keine verborgenen Originalpixel.
 
-Matrikelnummer, handschriftliche Unterschrift, Originalsignaturen und fremde Benutzerkennungen sind nicht enthalten. Für eine öffentliche Fassung wird keine ursprüngliche Signatur übernommen.
+Matrikelnummer, handschriftliche Unterschrift, Originalsignaturen und fremde Benutzerkennungen sind nicht enthalten. Für eine öffentliche Fassung wird keine ursprüngliche Signatur übernommen. Die Quellenangabe zur damaligen KI-Nutzung bleibt erhalten; die Veröffentlichungsfassung wurde zusätzlich mit KI-Unterstützung redigiert.
 
 Die Beispielkonfigurationen sind keine freigegebenen Zugangsdaten und wurden nicht in einem neuen Netzwerk getestet. Das Firewall-Beispiel zeigt den damaligen Prototyp und ist keine allgemeine Sicherheitsempfehlung. Die Befehle sind hier zur Erklärung wiedergegeben.
 
@@ -333,6 +333,8 @@ Die Projektarbeit hat mir einen praxisnahen Einblick in verschiedene Bereiche de
 
 
 # Quellen- und Literaturverzeichnis
+
+- OpenAI. (2026). ChatGPT. Abgerufen am 30. August 2026 von [URL in der öffentlichen Fassung entfernt]
 
 - Quade, J. (2026). Vorlesungs- und Übungsmaterialien IT-Sicherheit. Abgerufen am 18. August 2026 von [URL in der öffentlichen Fassung entfernt]
 
